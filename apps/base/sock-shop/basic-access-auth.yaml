@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: microservices-basic-access-auth
+  namespace: sock-shop
+type: Opaque
+data:
+  username: __BASE64_USERNAME__
+  password: __BASE64_PASSWORD__
